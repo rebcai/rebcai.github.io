@@ -612,8 +612,8 @@ a:visited {
     height: 100vh;
 }
 
-.item img {i
-    width: 100%;
+.item img {
+    i width: 100%;
     height: 100vh !important;
     object-fit: cover;
 }
@@ -626,4 +626,8 @@ a:visited {
 .home-images {
     padding-left: 40px;
     padding-right: 40px;
+}
+
+.title-container {
+    margin-top: 10px;
 }
