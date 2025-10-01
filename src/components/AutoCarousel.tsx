@@ -12,7 +12,7 @@ export const AutoCarousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % images.length);
-    }, 1000);
+    }, 2000);
 
     return () => clearInterval(interval);
   }, []);
