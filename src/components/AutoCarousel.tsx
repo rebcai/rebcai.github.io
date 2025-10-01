@@ -40,22 +40,6 @@ export const AutoCarousel = () => {
         ))}
       </div>
 
-      <button
-        onClick={goToPrevious}
-        className="absolute left-4 top-1/2 -translate-y-1/2 bg-background/80 hover:bg-background p-2 rounded-sm border border-border transition-colors"
-        aria-label="Previous image"
-      >
-        <ChevronLeft className="w-5 h-5" />
-      </button>
-
-      <button
-        onClick={goToNext}
-        className="absolute right-4 top-1/2 -translate-y-1/2 bg-background/80 hover:bg-background p-2 rounded-sm border border-border transition-colors"
-        aria-label="Next image"
-      >
-        <ChevronRight className="w-5 h-5" />
-      </button>
-
       <div className="flex justify-center gap-2 mt-4">
         {images.map((_, index) => (
           <button
