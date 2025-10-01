@@ -26,7 +26,7 @@ export const AutoCarousel = () => {
   };
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto">
+    <div className="relative w-full max-w-md mx-auto">
       <div className="relative aspect-video overflow-hidden rounded-sm border border-border">
         {images.map((image, index) => (
           <img
