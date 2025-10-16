@@ -102,4 +102,18 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+
+  .name-title {
+    font-family: "Playwrite US Modern", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .email-subtitle {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
 }
