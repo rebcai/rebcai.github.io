@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import carousel1 from "@/assets/carousel-1.jpg";
-import carousel2 from "@/assets/carousel-2.jpg";
-import carousel3 from "@/assets/carousel-3.jpg";
+import carousel1 from "@/assets/websitepreview1.jpg";
+import carousel2 from "@/assets/websitepreview2.jpg";
+import carousel3 from "@/assets/websitepreview3.jpg";
 
 const images = [carousel1, carousel2, carousel3];
 
