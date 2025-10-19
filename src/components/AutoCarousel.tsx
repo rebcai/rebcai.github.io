@@ -27,13 +27,13 @@ export const AutoCarousel = () => {
 
   return (
     <div className="relative w-full max-w-md mx-auto">
-      <div className="relative aspect-video overflow-hidden rounded-sm border border-border">
+      <div className="relative h-[600px] overflow-hidden rounded-sm">
         {images.map((image, index) => (
           <img
             key={index}
             src={image}
             alt={`Slide ${index + 1}`}
-            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
+            className={`absolute inset-0 w-full max-w-full max-h-full object-contain transition-opacity duration-500 ${
               index === currentIndex ? "opacity-100" : "opacity-0"
             }`}
           />
