@@ -7,7 +7,7 @@ const Index = () => {
         <div className="space-y-2 text-center">
           <h1 className="text-2xl name-title font-light">rebecca cai</h1>
           <h2 className="text-lg email-subtitle font-light pb-2">
-            email@placeholder
+            rebecca.yl.cai@gmail.com
           </h2>
         </div>
 
